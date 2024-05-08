@@ -44,12 +44,17 @@ body {
     border-radius: 12px;
 }
 
-#date-pub {
+.date-pub {
     font-size: 15px;
     font-weight: 500;
 }
 
-h1 {
+.title:hover {
+    cursor: pointer;
+    color: hsl(47, 81%, 51%);
+}
+
+.title {
     font-size: 25px;
     font-weight: 800;
 }
@@ -64,9 +69,14 @@ h1 {
     margin-bottom: -8px;
 }
 
-#author-name {
+.author-name {
     font-weight: 800;
     font-size: 14px;
+}
+
+.author-name:hover {
+    cursor: pointer;
+    color: rgb(107, 107, 107);
 }
 
 .author img {
@@ -76,11 +86,20 @@ h1 {
     margin-right: 10px;
 }
 
-h2 {
+.author img:hover {
+    cursor: pointer;
+}
+
+.learning {
     font-size: 14px;
     max-width: fit-content;
     padding: 6px 15px;
     font-weight: 800;
     border-radius: 5px;
     background-color: hsl(47, 88%, 63%);
+}
+
+.learning:hover {
+    cursor: pointer;
+    background-color: hsl(47, 81%, 51%);
 }
